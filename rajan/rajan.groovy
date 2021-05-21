@@ -4,8 +4,8 @@ pipeline {
   stage('build') {
       steps {
         sh '''
-          echo "Mvn Compile and install JustWin Java webapp"
-          cd justwin
+          echo "Mvn Compile and install Rajan Java webapp"
+          cd rajan
           /opt/apache-maven-3.6.3/bin/mvn package
         '''
       }
