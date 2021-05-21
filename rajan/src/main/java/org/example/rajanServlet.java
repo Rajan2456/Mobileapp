@@ -15,6 +15,6 @@ public class rajanServlet extends HttpServlet {
     {
         // Very simple - just return some plain text
         PrintWriter writer = response.getWriter();
-        writer.print("Welcome to Image Technologies' DevOps Course - 2021: Anto, HarPreetB, (vijay), [Maxim Kaloty], (Anju), <Yadwinder>, Mohsina, <Rajan>");
+        writer.print("Welcome to Image Technologies' DevOps Course - 2021: Rajan");
     }
 }
